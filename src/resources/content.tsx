@@ -111,10 +111,9 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Jaka is a Jakarta-based design engineer with a passion for transforming
-        complex challenges into simple, elegant design solutions. Her work spans
-        digital interfaces, interactive experiences, and the convergence of
-        design and technology.
+        Jaka is a Jakarta-based software engineer with a passion for
+        transforming complex technical challenges into seamless human
+        experiences.
       </>
     ),
   },
@@ -123,41 +122,61 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Rumah Sakit Harapan Bunda - RSHB",
+        timeframe: "2021 - Present",
+        role: "Software Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20%
-            increase in user engagement and 30% faster load times.
+            Rumah Sakit Harapan Bunda is currently undergoing a transformation
+            into a digital hospital in Lampung Tengah. As a Software Developer,
+            I have been actively involved in this journey, contributing to the
+            development of several critical components:
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows,
-            enabling designers to iterate 50% faster.
+            Developed high-reliability modules for In-Patient care and Critical
+            Care Units (ICU/NICU), alongside a centralized Billing system.
+            Focused on synchronizing medical service data with financial
+            processing, ensuring data integrity across clinical documentation
+            and hospital revenue cycles.
           </>,
         ],
         images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-01.jpg",
+          //   alt: "Once UI Project",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "BANGBELI",
+        timeframe: "2020 - 2021",
+        role: "Software Engineer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple
-            platforms, improving design consistency by 40%.
+            During my tenure as a Software Developer Intern at BANGBELI
+            Teknologi Indonesia, I was entrusted with the responsibility of
+            enhancing the organization's payment services portfolio, which
+            encompassed an array of critical functions including mobile data
+            top-ups, cable TV payments, and insurance payments, among others.
           </>,
+        ],
+        images: [],
+      },
+      {
+        company: "SUIT Career",
+        timeframe: "2020 - 2020",
+        role: "Software Engineer",
+        achievements: [
           <>
-            Led a cross-functional team to launch a new product line,
-            contributing to a 15% increase in overall company revenue.
+            One of the defining moments in my professional journey was my
+            internship experience at Suit Career, a dynamic company specializing
+            in delivering comprehensive services to a diverse clientele. During
+            my tenure, I had the privilege of spearheading a pivotal project
+            aimed at developing "pesantri.com." This web platform was intended
+            for sale to Indonesian Pesantrens as a Software as a Service (SaaS)
+            solution.
           </>,
         ],
         images: [],
@@ -165,16 +184,12 @@ const about: About = {
     ],
   },
   studies: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "University of Lampung",
+        description: <>Studied Computer Science.</>,
       },
     ],
   },
@@ -183,61 +198,77 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Skilled",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>
+            Bridging the gap between design and production by engineering
+            high-fidelity prototypes and scalable React components with
+            exceptional speed.
+          </>
         ),
         tags: [
           {
-            name: "Figma",
-            icon: "figma",
+            name: "PHP",
+            icon: "php",
           },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        title: "Next.js",
-        description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
-        ),
-        tags: [
           {
             name: "JavaScript",
-            icon: "javascript",
+            icon: "JavaScript",
           },
           {
-            name: "Next.js",
-            icon: "nextjs",
+            name: "Laravel",
+            icon: "Laravel",
           },
           {
-            name: "Supabase",
-            icon: "supabase",
+            name: "React JS",
+            icon: "React JS",
           },
         ],
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        // images: [
+        //   {
+        //     src: "https://www.php.net/images/logos/new-php-logo.svg",
+        //     alt: "Project image",
+        //     width: 16,
+        //     height: 9,
+        //   },
+        //   {
+        //     src: "/images/projects/project-01/cover-03.jpg",
+        //     alt: "Project image",
+        //     width: 16,
+        //     height: 9,
+        //   },
+        // ],
       },
+      // {
+      //   title: "Next.js",
+      //   description: (
+      //     <>Building next gen apps with Next.js + Once UI + Supabase.</>
+      //   ),
+      //   tags: [
+      //     {
+      //       name: "JavaScript",
+      //       icon: "javascript",
+      //     },
+      //     {
+      //       name: "Next.js",
+      //       icon: "nextjs",
+      //     },
+      //     {
+      //       name: "Supabase",
+      //       icon: "supabase",
+      //     },
+      //   ],
+      //   // optional: leave the array empty if you don't want to display images
+      //   images: [
+      //     {
+      //       src: "/images/projects/project-01/cover-04.jpg",
+      //       alt: "Project image",
+      //       width: 16,
+      //       height: 9,
+      //     },
+      //   ],
+      // },
     ],
   },
 };
@@ -256,8 +287,6 @@ const work: Work = {
   label: "Work",
   title: `Projects – ${person.name}`,
   description: `Design and dev projects by ${person.name}`,
-  // Create new project pages by adding a new .mdx file to app/blog/posts
-  // All projects will be listed on the /home and /work routes
 };
 
 const gallery: Gallery = {

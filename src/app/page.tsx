@@ -1,20 +1,16 @@
+import { about, baseURL, home, person } from "@/resources";
 import {
-  Heading,
-  Text,
-  Button,
   Avatar,
-  RevealFx,
-  Column,
   Badge,
+  Button,
+  Column,
+  Heading,
+  Meta,
+  RevealFx,
   Row,
   Schema,
-  Meta,
-  Line,
+  Text,
 } from "@once-ui-system/core";
-import { home, about, person, baseURL, routes } from "@/resources";
-import { Mailchimp } from "@/components";
-import { Projects } from "@/components/work/Projects";
-import { Posts } from "@/components/blog/Posts";
 
 export async function generateMetadata() {
   return Meta.generate({
@@ -144,7 +140,7 @@ export default function Home() {
         </Column>
       )} */}
       {/* <Projects range={[2]} /> */}
-      <Mailchimp />
+      {/* <Mailchimp /> */}
     </Column>
   );
 }
