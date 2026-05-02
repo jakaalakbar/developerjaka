@@ -1,4 +1,13 @@
-import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
+import {
+  About,
+  Blog,
+  Gallery,
+  Home,
+  Newsletter,
+  Person,
+  Social,
+  Work,
+} from "@/types";
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
@@ -19,9 +28,6 @@ const newsletter: Newsletter = {
 };
 
 const social: Social = [
-  // Links are automatically displayed.
-  // Import new icons in /once-ui/icons.ts
-  // Set essentials: true for links you want to show on the about page
   {
     name: "GitHub",
     icon: "github",
@@ -76,12 +82,10 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Jaka, a design engineer at{" "}
+      I'm Jaka, a software engineer based in{" "}
       <Text as="span" size="xl" weight="strong">
-        ONCE UI
+        Indonesia
       </Text>
-      , where I craft intuitive <br /> user experiences. After hours, I build my
-      own projects.
     </>
   ),
 };
@@ -115,7 +119,7 @@ const about: About = {
     ),
   },
   work: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Work Experience",
     experiences: [
       {
