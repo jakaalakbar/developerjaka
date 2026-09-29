@@ -13,7 +13,7 @@ import { Line, Row, Text } from "@once-ui-system/core";
 const person: Person = {
   firstName: "Jaka",
   lastName: "Akbar",
-  name: `Jaka Al Akbar`,
+  name: "Jaka Al Akbar",
   role: "Software Engineer",
   avatar: "/images/image.png",
   email: "jakaal17@gmail.com",
@@ -340,4 +340,5 @@ const gallery: Gallery = {
   ],
 };
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { about, blog, gallery, home, newsletter, person, social, work };
+
